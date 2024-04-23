@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: StatefulSet
 metadata:
   name: elasticsearch
-  namespace: kube-logging
+  namespace: logging
 spec:
   serviceName: elasticsearch
   replicas: 1
